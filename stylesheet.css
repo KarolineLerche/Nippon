@@ -169,3 +169,28 @@ body{font-family: 'sakuraalp';}
 
 .slideshowbilleder{
     width: 300px;}
+
+
+
+
+
+/* MADKASSEN */
+
+#madkassen_flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+#videobox video{
+    width: 600px;
+    height: 500px;
+    
+}
+
+#madkassen_flexbox div:first-child{
+    padding-right: 5%;
+    padding-top: 70px;
+    width: 50%;
+}
+
+#madkassen_info h1{margin-bottom: 20px;}
