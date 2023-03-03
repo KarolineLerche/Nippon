@@ -1,58 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+@import url(https://www.fontspace.com/https://get.fontspace.co/download/font/ov3o/OTEwMzY0Yjc3NDBjNDllNDhiMTliMDg0YjcyMWMzNGIuVFRG/Sakuraalp-ov3o.ttf);
+
+/* BAGGRUNDE */
+
+/* Baggrund forside  */
 #baggrund_striper{
     background-image: url("images/baggrund.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+/* Baggrund resten  */
+main{background-color: #F7F8F5;}
 
+
+body{font-family: 'sakuraalp';}
+
+
+
+/* INDEX */
 #logo{
     height: 100px;
     width: 200px;
     text-align: center;
     margin-right: 43%;
     margin-left: 43%;
-    
-    
 }
 
 #logo img{
     max-width: 100%;
     max-height: 100%;
-
 }
 
-.center{text-align: center;
-
-}
+.center{text-align: center;}
 
 #index_flexbox{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-
 }
 
 #tekst, #kasse, #beregner{
     width: 33%;
     text-align: center;
-
 }
 
 #beregner{
-
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
-    
 }
-
-
 
 .button{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
-    margin: 10px;}
+    margin: 10px;
+}
 
 
+
+
+
+/* OPSKRIFTER */
+
+.opskrift{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+
+    font-size: 17px;
+    line-height: 35px;
+    font-family: 'sakuraalp';
+}
+
+.opskrift div:first-child{width: 60%;}
+
+
+.opskrift_farve{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+
+    font-size: 17px;
+    line-height: 35px;
+
+    
+    font-family: 'sakuraalp';
+    background-color: #d8ddca;
+}
+
+.opskrift_farve div:last-child{width: 60%;}
+
+.overskrift{width: 400px;}
+
+.ingredienser img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ingredienser{
+    margin-top: 6%;
+    height: 200px;
+    width: auto;
+}
+
+
+
+/* KASSER */
+#flexbox_et, #flexbox_to{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#flexbox_et div{
+    width: 20%;
+    margin: 2%;
+}
+
+
+
+/* Billeder af måltidskasserne */
+.produktbillede{
+    width: 300px;
+    height: 330px;
+}
+
+
+/* Overordnet 3 div */
+.kasse{
+    width: 29%;
+    margin: 10px;
+}
+
+#flexbox_to div{
+    border-radius: 5%;
+    padding: 20px;
+}
+
+
+#flexbox_to div:nth-child(2){background-color:#dee6cf;}
+#flexbox_to div:first-child, #flexbox_to div:last-child{background-color: #cad1bb;}
+
+
+/* Div med billede karrusellen  */
+#karrusel1, #karrusel2, #karrusel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Billeder af pilene */
+.pil{
+    width: 5%;
+    height: 5%;  
+    margin: 10px;
+
+}
+
+.slideshowbilleder{
+    width: 300px;}
